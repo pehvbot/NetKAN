@@ -1,7 +1,18 @@
 {
     "spec_version": "v1.4",
-    "identifier": "B9ProceduralWingsModifiedContinued",
-    "$kref": "#/ckan/spacedock/2525",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "B9ProceduralWingsModifiedContinued",
+    "$kref":        "#/ckan/spacedock/2525",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "B9_Aerospace_ProceduralWings",
+        "install_to": "GameData"
+    } ]
 }
