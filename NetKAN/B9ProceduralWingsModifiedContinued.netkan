@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier":   "B9ProceduralWingsModifiedContinued",
+    "author":       [ "Jebman82", "bac9", "Crzyrndm", "jrodrigv", "CarnationRED", "tetraflon" ],
     "$kref":        "#/ckan/spacedock/2525",
-    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "tags": [
         "plugin",
@@ -10,6 +10,13 @@
     ],
     "depends": [
         { "name": "ModuleManager" }
+    ],
+    "conflicts": [
+        { "name": "B9AerospaceProceduralParts" }
+    ],
+    "suggests": [
+        { "name": "TexturesUnlimited" },
+        { "name": "ProceduralParts"   }
     ],
     "install": [ {
         "find":       "B9_Aerospace_ProceduralWings",
