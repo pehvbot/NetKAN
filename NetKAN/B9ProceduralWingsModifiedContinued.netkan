@@ -3,6 +3,7 @@
     "identifier":   "B9ProceduralWingsModifiedContinued",
     "author":       [ "Jebman82", "bac9", "Crzyrndm", "jrodrigv", "CarnationRED", "tetraflon" ],
     "$kref":        "#/ckan/spacedock/2525",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "tags": [
         "plugin",
